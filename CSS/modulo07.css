@@ -1,0 +1,151 @@
+html{
+	font-family: sans-serif;
+	color: #8b0000
+}
+
+p{
+	color:#ff4040
+}
+
+
+header p {
+	font-size: 2rem;
+	color: #fff;
+}
+
+/* 
+	Combinadores
+	- eletor descenden (espaço)
+*/
+
+header h2 {
+	font-weight: 100;
+}
+
+header > h2 {
+	font-weight: 600;
+}
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+header > p {
+	color: #fff;
+}
+h2 + p {
+	background: #000;
+	color: #8b0000;
+}
+div + p {
+
+	text-transform: uppercase;
+}
+
+/* pseudo-elementos */
+
+a {
+	color: #000;
+	text-decoration: none; /* padrão:  underline */;
+	font-size: 1.5rem;
+}
+
+a:visited {
+	color: #ff4040;
+}
+
+a:active {
+	color: #8b0000;
+	background: #000;
+}
+a:hover {
+	color: #8b0000;
+	text-decoration: underline;
+	background: fff;
+}
+
+h2:hover {
+	color: #000;
+}
+
+/* Tipografia */
+
+html {
+	font-family: Times new Roman;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+a, p {
+	font-weight: normal;
+}
+
+li {
+	letter-spacing: 0.1rem;
+	font-family: Apple Chancery;
+	line-height: 2rem;
+	padding-bottom: 1px;
+}
+
+h3{
+	font: italic bold 1,2rem cursive;
+}
+
+h2 {
+	font-family: 'Edu NSW ACT Foundation', cursive;
+;
+
+}
+
+/* Cores */
+
+
+body {;
+	background-image: url('../imagens/red.jpeg') center top repeat;
+}
+
+section  {
+
+	background:rgba(255, 255, 255, .5) ;
+}
+
+footer {
+	background-color:  8b0000;
+}
+
+article h3 {
+	font-size: 5rem;
+	font-family: sans-serif;
+	font-weight: 100;
+	color: #fff;
+	background-color: #8b0000;
+	text-align: center;
+
+}
+article h3:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+table {
+	margin: 120px 70px;
+}
+table tr {
+	font-size: 1.5rem;
+	color: #fff;
+	background-color: #8b0000;
+	border: 1px solid #fff;
+}
+table th {
+	color: #8b0000;
+	background-color: #fff;
+	border: 1px solid #8b0000;
+	font-size: 2rem;
+}
+tr:hover {
+	color: #000;
+	text-decoration: underline;
+}
+

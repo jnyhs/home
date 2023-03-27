@@ -1,0 +1,91 @@
+<! DOCTYPE html>
+<html lang="pt_BR">
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<head>
+		<!-- Informações para o navegador-->
+			<title>Formulario Fale Conosco</title>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" type="text/css" href="./css/style.css">			
+			<link rel="stylesheet" type="text/css" href="./css/imagem.css">
+		
+	</head>
+	<body>
+
+		<header> 
+			<h2> Fale Conosco </h2>
+
+		</header>
+
+		<section>
+			<nav>
+				<h3>Arquivos de aulas</h3>
+				<ul>
+					<li> <a href="index.html"> Homepage </a></li>
+					<li><a href="01-intro.html">Introdução</a></li>
+					<li><a href="02-listaselinks.html"></a></a></li>
+					<li><a href="03-formatacaodetexto.html"></a></li>
+					<li><a href="04-tabelas.html">Tabelas</a></li>
+					<li><a href="05-layouts.html">Layouts</a></li>
+					<li><a href="07-css2.html"> Avançando no CSS </a></li>
+					<li> <a href="08-Layouts-Fluidos.html">Layouts Fluídos</a></li>
+					<li><a href="09-Elementos-graficos.html">Elementos Gráficos</a></li>
+					<li><a href="Tabela-de-financas.html">Tabela de Finanças</a></li>
+				</ul>
+
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://www.linkedin.com/in/jenniferhsantos/">LinkedIn</a></li>
+					<li><a href="https://www.instagram.com/jnnysantos">@jnnysantos </a></li>
+				</ul>
+				<div id="imagem-nav">
+				<img src="./imagens/Jenny2.png" alt="Jenny">
+				</div>
+			</nav>
+			<article>
+				<h1> Contato</h1>
+
+				<form method="get">
+					<div>
+						<label for="nome">Nome </label>
+					<input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+					</div>
+					<div>
+						<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+					</div>				
+					<div>
+						<label for="mensagem">Mensagem </label>
+						<textarea name="mensagem" id="mensagem" rows="5"></textarea> 
+					</div>
+					<div>
+						<label> Qual Linguagem você prefere? </label>
+						<input type="radio" name="linguagens" value="html"> HTML  <input type="radio" name="linguagens" value="css"> CSS 
+						<input type="radio" name="linguagens" value="java"> Java
+					</div>
+					<div>
+						<label> Quais Linguagens você sabe? </label>
+						<input type="checkbox" name="linguagens" value="html"> HTML  <input type="checkbox" name="linguagens" value="css"> CSS 
+						<input type="checkbox" name="linguagens" value="java"> Java
+					</div>
+
+					<div>
+						<label>Qual sua cor favorita?</label>
+						<select>
+							<option value="azul"> Azul </option>
+							<option value="verde"> Verde </option>
+							<option value="vermelho" > Vermelho </option>
+
+						</select>
+					</div>
+
+					<div id="submit"> 
+						<input type="submit">
+					</div>
+				</form>
+		</article>
+		</section>
+
+		<footer> Desenvolvido por JNY </footer>			
+	</body>
+</html>
